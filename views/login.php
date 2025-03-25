@@ -25,7 +25,7 @@
 
         <div id="captcha-container"
              class="smart-captcha mt-2"
-             data-sitekey="ysc1_a12B4aIbEhmYSnj8GinZ8A56Ow2aHybuA5eNltSWbad69cc5"></div>
+             data-sitekey=<?=CLIENT_KEY?>></div>
 
         <div class="text-center">
             <button type="submit" class="btn btn-primary mt-2">Войти</button>

@@ -8,3 +8,6 @@ const DB_NAME = "test_auth";
 const DB_USER = "root";
 const DB_PASS = "";
 const CHARSET = "utf8";
+
+const CLIENT_KEY = '';
+const SERVER_KEY = '';

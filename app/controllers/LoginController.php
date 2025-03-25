@@ -28,7 +28,7 @@ class LoginController extends Controller
         curl_setopt($ch, CURLOPT_URL, "https://smartcaptcha.yandexcloud.net/validate");
         curl_setopt($ch, CURLOPT_POST, true);
         curl_setopt($ch, CURLOPT_POSTFIELDS, http_build_query([
-            'secret' => 'ysc2_a12B4aIbEhmYSnj8GinZXsQBKnNRruXIDDlziK6t1bc9766f',
+            'secret' => SERVER_KEY,
             'token' => $token,
             'ip' => $ip
         ]));
